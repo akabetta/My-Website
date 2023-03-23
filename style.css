@@ -1,0 +1,239 @@
+﻿body {
+    background-color: #D6E4E5;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #282A3A;
+    font-family: 'EB Garamond', serif;
+    line-height: 2;
+}
+
+a {
+    margin: 10px 30px;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #635985;
+    }
+
+hr {
+    color: #EB6440;
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #2E4F4F;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-family: 'Handlee', cursive;
+    color: #205E61;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+h3 {
+    color: #221F3B;
+    font-family: 'Bona Nova', serif;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 150px;
+}
+
+.mountain-img {
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 410px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 410px;
+    bottom: 470px;
+}
+
+.profile {
+    margin: 3.125rem auto 3.125rem auto;
+}
+
+.skill-row {
+    width: 65rem;
+    margin: 80px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.left-side {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+.right-side {
+    width: 10%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro {
+    width: 63%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.bottom-container {
+    padding: 0.05rem 0px 0.05rem;
+}
+.linkedin-img{
+    width:4rem;
+    position:relative;
+    right:1.5rem;
+}
+.github-img {
+    width: 4rem;
+    position: relative;
+    left: 1.5rem;
+}
+.contact-title {
+    font-family: 'Handlee', cursive;
+    color: #6B728E;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.copyright {
+    color: #6B728E;
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+
+.btn {
+    background: #6B728E;
+    background-image: -webkit-linear-gradient(top, #6B728E, #6B728E);
+    background-image: -moz-linear-gradient(top, #6B728E, #6B728E);
+    background-image: -ms-linear-gradient(top, #6B728E, #6B728E);
+    background-image: -o-linear-gradient(top, #6B728E, #6B728E);
+    background-image: linear-gradient(to bottom, #6B728E, #6B728E);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Handlee;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+}
+
+    .btn:hover {
+        background: #474E68;
+        background-image: -webkit-linear-gradient(top, #474E68, #474E68);
+        background-image: -moz-linear-gradient(top, #474E68, #474E68);
+        background-image: -ms-linear-gradient(top, #474E68, #474E68);
+        background-image: -o-linear-gradient(top, #474E68, #474E68);
+        background-image: linear-gradient(to bottom, #474E68, #474E68);
+        text-decoration: none;
+    }
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 22vw;
+        width: 80vw;
+        margin: 4vw auto 0vw auto;
+    }
+
+    .mountain-img {
+        width: 95vw;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 0vw;
+        bottom: 85vw;
+    }
+
+    .top-cloud {
+        position: absolute;
+        left: 68vw;
+        bottom: 60vw;
+    }
+
+    h2 {
+        font-size: 5.8vw;
+    }
+
+    .intro {
+        font-size: 4vw;
+        width: 90vw;
+    }
+
+    h3 {
+        margin-left: 1vw;
+        font-size: 3.5vw;
+    }
+
+    p {
+        margin-left: 2vw;
+        font-size: 4vw;
+        width: 90vw;
+    }
+
+    .left-side {
+        width: 18vw;
+        margin-left: 1vw;
+    }
+
+    .right-side {
+        width: 18vw;
+        margin-right: 1vw;
+    }
+
+    .contact-title {
+        font-size: 5.8vw;
+    }
+
+    .copyright {
+        font-size: 3vw;
+        margin-left: 5vw;
+    }
+
+    .contact-message {
+        width: 70vw;
+    }
+
+    .middle-container {
+        margin: 3vw 0;
+    }
+
+    .skill-row {
+        width: 100vw;
+    }
+    .bottom-container {
+        padding: 1.5rem 0px 0.5rem;
+    }
+}
